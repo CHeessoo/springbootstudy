@@ -6,8 +6,8 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import com.gdu.myhome.controller.intercept.RequiredLoginInterceptor;
-import com.gdu.myhome.controller.intercept.ShouldNotLoginInterceptor;
+import com.gdu.myhome.intercept.RequiredLoginInterceptor;
+import com.gdu.myhome.intercept.ShouldNotLoginInterceptor;
 
 import lombok.RequiredArgsConstructor;
 
